@@ -50,3 +50,15 @@ h2{
   text-align: center;
   font-style: italic;
 }
+
+.footer {
+  background-color: darkslategray;
+}
+
+.footer > span {
+  margin-left: 44%;
+  /* background-color: aqua; */
+  font-style: italic;
+  text-align: center; 
+  color: white;
+}

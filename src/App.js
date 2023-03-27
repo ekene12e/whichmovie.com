@@ -12,8 +12,6 @@ function App() {
   const [filterdMovies, setfilterdMovies] = useState(null)
   const [query, setQuery]=useState('');
   const [isFiltered, setisFiltered] = useState(false)
-  //const [hasDateFiltration, sethasDateFiltration] = useState(false)
-  //const [hasGenreFiltration, sethasGenreFiltration] = useState(false)
   
 
   //FETCH TRENDING MOVIES ON LOAD
@@ -70,7 +68,7 @@ function App() {
     <>
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container fluid>
-        <Navbar.Brand id='logo' href="/home">UptickMovie</Navbar.Brand>
+        <Navbar.Brand id='logo' href="/home">whichMovie.com</Navbar.Brand>
         {/* <Navbar.Brand href="/home">Trending Movies</Navbar.Brand> */}
         
         <Navbar.Toggle aria-controls="navbarScroll"></Navbar.Toggle>
@@ -148,6 +146,9 @@ function App() {
       ):(
         <h2>Sorry !! No Movies Found</h2>
       )}
+      <div className='footer'>
+          <span>©Ekene Ezema 2023</span>
+      </div>
     </div>   
     </>
    

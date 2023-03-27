@@ -1,3 +1,11 @@
+Name of Project: whichMovie.com
+Members: Ekene Ezema
+Description: This is a movie search web app. It provides a search button where users can type key words and then see the results. The result is can be filtered by genre or year of release. It entry in the search has a view more button where user can click to see a brief description of each movie.
+Learning Objectives: The main learning objective of the project is to practice how to consume data from an API call and present the information on the front end, using React. State management and data filtration was also one important learning objective 
+Technologies Used: REACT, react-bootstrap
+Third services Used: This App Uses The TMDB API as source of data
+
+
 # Getting Started with Create React App
 
 Visit site - https://uptick-movie.netlify.app/
